@@ -3,7 +3,7 @@ const ProductModel = require("../models/products.model");
 const postProduct = async (req, res) => {
   await ProductModel.create(
     {
-      name: "Manzana",
+      name: "Manzanas",
     },
     {
       fields: ["name"],
